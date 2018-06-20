@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_privacy_policy"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mojec.mojecsmarthome.activity.PrivacyPolicyActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOJEC International Limited is committed to maintaining your confidence and trust as it relates to the privacy of your information. Please read below and learn how we collect, protect, share and use your information as part of our technology platforms, including, without limitation, our websites, web pages, interactive features, applications, Twitter, Facebook and other social media networks.
+
+We take your privacy seriously, no matter how you access our Platforms
+
+1. INFORMATION WE COLLECT ON OUR PLATFORMS.
+Information You Provide To Us
+
+We may collect Personal Information (information that can be used to identify you as an individual) such as your name, email, telephone number, home address, demographic information (such as zip code, age). The types of Personal Information we collect may vary depending on your use of the features of the Platforms. MOJEC utilizes third-party social media management services to collect and analyze publicly available information on various social media sites. Information that you post on those sites, as well as publicly available information that you post on other pages made available through those sites and on other social media sites may be used by MOJEC for customer satisfaction, customized marketing, marketing analysis, consumer research and other legitimate business purposes.
+
+2. HOW WE USE THE INFORMATION WE COLLECT
+We use the information we collect about and from you for a variety of business purposes such as to respond to your questions and requests such as requests for product information, and brochures; advise you of important safety-related information; enable you to participate in promotional activities, or other Programs; provide you with access to certain areas and features of the Platforms such as your interactions with other users.
+
+3. SHARING OF INFORMATION
+
+Except as described here, we will not provide any of your Personal Information to any third parties without your specific consent. We may share non-Personal Information, such as aggregate data and Usage Information with third parties. We may also share your information as disclosed at the time you provide your information, as set forth in this Privacy Notice and in the following circumstances:
+
+Third Parties Providing Services on Our Behalf. We may share your Personal Information with third parties that perform functions on our behalf (or on behalf of our partners) such as service providers that host or operate our Platforms, analyze data, process transactions and payments, fulfill orders or provide customer service; advertisers; sponsors or other third parties that participate in or administer our promotions, contests, sweepstakes, surveys or provide marketing or promotional assistance and powered by partners or partners in co-branded sites. Your Personal Information may also be used by us or shared with our subsidiaries, affiliates, sponsors, partners, advertisers or other third parties to provide you with product information and promotional and other offers.
+
+Legal Disclosure. We may transfer and disclose your information to third parties to comply with a legal obligation; when we believe in good faith that the law or a governmental authority requires it; to verify or enforce our Terms of Use or other applicable policies; to address fraud, security or technical issues; to respond to an emergency; or otherwise to protect our rights or property or security of third parties, visitors to our Platforms or the public.
+
+4. CHILDREN.
+
+The Platforms are not directed to children under 13. We do not knowingly collect, use or disclose personally identifiable information from anyone under 13 years of age. If we determine upon collection that a user is under this age, we will not use or maintain his/her Personal Information without the parent/guardian's consent. If we become aware that we have unknowingly collected personally identifiable information from a child under the age of 13, we will make reasonable efforts to delete such information from our records.
+
+5. CHANGES.
+
+We may update this Privacy Notice to reflect changes to our information practices. If we make any material changes we will notify you by email (sent to the e-mail address specified in your account) or by means of a notice on our Platforms prior to the change becoming effective. We encourage you to periodically review this page for the latest information on our privacy practices.
+
+6. CONTACT US.
+
+To contact us with a question call us at +234 17738393 or mail your inquiry to: enquiries@mojec.com"/>
+</ScrollView>

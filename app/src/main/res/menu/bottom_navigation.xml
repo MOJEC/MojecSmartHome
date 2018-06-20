@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_automation"
+        android:icon="@drawable/ic_automation"
+        android:title="@string/title_automation"/>
+
+    <item
+        android:id="@+id/navigation_energy"
+        android:icon="@drawable/ic_energy"
+        android:title="@string/title_energy"/>
+
+    <item
+        android:id="@+id/navigation_security"
+        android:icon="@drawable/ic_security"
+        android:title="@string/title_security"/>
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_person_white_24dp"
+        android:title="@string/title_profile"/>
+
+</menu>

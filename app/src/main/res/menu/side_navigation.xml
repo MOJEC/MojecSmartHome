@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_automation"
+            android:icon="@drawable/ic_automation"
+            android:title="@string/title_automation"/>
+
+        <item
+            android:id="@+id/navigation_energy"
+            android:icon="@drawable/ic_energy"
+            android:title="@string/title_energy"/>
+
+        <item
+            android:id="@+id/navigation_security"
+            android:icon="@drawable/ic_security"
+            android:title="@string/title_security"/>
+
+        <item
+            android:id="@+id/navigation_profile"
+            android:icon="@drawable/ic_person_white_24dp"
+            android:title="@string/title_profile"/>
+
+        <item
+            android:id="@+id/navigation_notifications"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/nav_notifications" />
+
+        <item
+            android:id="@+id/navigation_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/nav_settings" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/navigation_about_us"
+                android:title="@string/nav_about_us" />
+            <item
+                android:id="@+id/navigation_privacy_policy"
+                android:title="@string/privacy_policy" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.mojec.mojecsmarthome.activity.SplashScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/lato_light"
+        android:paddingBottom="20dp"
+        android:layout_gravity="center"
+
+        android:textColor="@color/text_colorPrimary"
+        android:textSize="@dimen/medium_font_size" />
+
+    <ImageView
+        android:id="@+id/splash_logo"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="1.8"
+        android:layout_gravity="center"
+
+        android:src="@drawable/mojec_logo_white" />
+
+    <TextView
+        android:id="@+id/splash_text"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/lato_light"
+        android:paddingBottom="20dp"
+        android:layout_gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/text_colorPrimary"
+        android:textSize="@dimen/medium_font_size" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:padding="@dimen/activity_padding"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@drawable/ic_automation"
+            android:tint="@color/colorPrimaryDark" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_security"
+            android:tint="@color/colorPrimaryDark" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:src="@drawable/ic_energy"
+            android:tint="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+</LinearLayout>
